@@ -5,12 +5,14 @@ import ContactDetails from "./sections/ContactDetails";
 import StackedCards from "./sections/Projects";
 import Intro from "./sections/Intro";
 import Education from "./sections/Education";
+import OutReachProj from "./sections/OutReachProj";
 
 const sections = [
   { id: "home", title: "Home", component: <Hero /> },
   { id: "about", title: "About", component: <Intro /> },
   { id: "education", title: "Education", component: <Education /> },
   { id: "projects", title: "Projects", component: <StackedCards /> },
+  { id: "outreachprojects", title: "Outreach Projects", component: <OutReachProj /> },
   { id: "skills", title: "Skills", component: <Skills /> },
   { id: "contact", title: "Contact", component: <ContactDetails /> },
 ];
